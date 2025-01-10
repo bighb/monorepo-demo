@@ -10,8 +10,7 @@
     "nx": "15.9.2"
   },
   "scripts": {
-    "start:react": "lerna run dev --scope=@monorepo-demo/react-app",
-    "start:vue": "lerna run dev --scope=@monorepo-demo/vue-app",
+    "start:all": "lerna run dev --scope=@monorepo-demo/react-app & lerna run dev --scope=@monorepo-demo/vue-app",
     "build": "lerna run build",
     "test": "lerna run test"
   }

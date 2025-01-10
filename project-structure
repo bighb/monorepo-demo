@@ -1,0 +1,12 @@
+monorepo-demo/
+├── package.json
+├── lerna.json
+├── nx.json
+├── .yarnrc.yml
+├── .yarn/
+│   ├── releases/
+│   └── plugins/
+├── packages/
+│   ├── react-app/
+│   └── vue-app/
+└── yarn.lock 
